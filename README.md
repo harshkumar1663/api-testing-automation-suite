@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # API Testing Automation Suite
 
 **Author:** Harsh Kumar  
@@ -81,6 +80,3 @@ api-testing-automation-suite/
 ├─ run_tests.py             # Main test runner script
 ├─ requirements.txt         # Python dependencies
 └─ README.md
-=======
-# api-testing-automation-suite
->>>>>>> e83be666ecb2a003c28e882923a5174316501642
