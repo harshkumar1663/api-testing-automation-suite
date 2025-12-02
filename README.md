@@ -65,7 +65,7 @@ The suite is intentionally structured like a lightweight internal testing tool:
 
 ## 3. Folder Structure
 
-
+```text
 api-testing-automation-suite/
 ├─ api_tests/
 │  ├─ __init__.py           # Package metadata
