@@ -1,0 +1,29 @@
+[2025-12-02 13:40:48] [INFO] __main__ - Starting API Testing Automation Suite
+[2025-12-02 13:40:48] [INFO] api_tests.core_tester - Running GET test: GET single user (id=2)
+[2025-12-02 13:40:48] [INFO] api_tests.http_client - GET https://reqres.in/api/users/2 params=None
+[2025-12-02 13:40:48] [INFO] api_tests.core_tester - [FAIL] GET single user (id=2) (status=403, time=107.46 ms) - Expected status 200, got 403. Response is not valid JSON.
+[2025-12-02 13:40:48] [INFO] api_tests.core_tester - Running GET test: GET users list (page=2)
+[2025-12-02 13:40:48] [INFO] api_tests.http_client - GET https://reqres.in/api/users?page=2 params=None
+[2025-12-02 13:40:49] [INFO] api_tests.core_tester - [FAIL] GET users list (page=2) (status=403, time=83.36 ms) - Expected status 200, got 403. Response is not valid JSON.
+[2025-12-02 13:40:49] [INFO] api_tests.core_tester - Running POST test: POST create user
+[2025-12-02 13:40:49] [INFO] api_tests.http_client - POST https://reqres.in/api/users json={'name': 'Harsh Bot', 'job': 'automation-tester'}
+[2025-12-02 13:40:49] [INFO] api_tests.core_tester - [FAIL] POST create user (status=403, time=76.47 ms) - Expected status 201, got 403. Response is not valid JSON.
+[2025-12-02 13:40:49] [INFO] api_tests.core_tester - Running POST test: POST login without password (negative test)
+[2025-12-02 13:40:49] [INFO] api_tests.http_client - POST https://reqres.in/api/login json={'email': 'peter@klaven'}
+[2025-12-02 13:40:49] [INFO] api_tests.core_tester - [FAIL] POST login without password (negative test) (status=403, time=67.34 ms) - Expected status 400, got 403. Response is not valid JSON.
+[2025-12-02 13:40:49] [INFO] api_tests.core_tester - Writing test report to G:\Portfolio\API-Testing-Automation-Suite\reports\api_test_report_20251202_081049.txt
+[2025-12-02 13:41:40] [INFO] __main__ - Starting API Testing Automation Suite
+[2025-12-02 13:41:40] [INFO] api_tests.core_tester - Running GET test: GET single user (id=2)
+[2025-12-02 13:41:40] [INFO] api_tests.http_client - GET https://reqres.in/api/users/2 params=None
+[2025-12-02 13:41:40] [INFO] api_tests.core_tester - [FAIL] GET single user (id=2) (status=403, time=77.90 ms) - Expected status 200, got 403. Response is not valid JSON.
+[2025-12-02 13:41:40] [INFO] api_tests.core_tester - Running GET test: GET users list (page=2)
+[2025-12-02 13:41:40] [INFO] api_tests.http_client - GET https://reqres.in/api/users?page=2 params=None
+[2025-12-02 13:41:40] [INFO] api_tests.core_tester - [FAIL] GET users list (page=2) (status=403, time=54.34 ms) - Expected status 200, got 403. Response is not valid JSON.
+[2025-12-02 13:41:40] [INFO] api_tests.core_tester - Running POST test: POST create user
+[2025-12-02 13:41:40] [INFO] api_tests.http_client - POST https://reqres.in/api/users json={'name': 'Harsh Bot', 'job': 'automation-tester'}
+[2025-12-02 13:41:40] [INFO] api_tests.core_tester - [FAIL] POST create user (status=403, time=53.08 ms) - Expected status 201, got 403. Response is not valid JSON.
+[2025-12-02 13:41:40] [INFO] api_tests.core_tester - Running POST test: POST login without password (negative test)
+[2025-12-02 13:41:40] [INFO] api_tests.http_client - POST https://reqres.in/api/login json={'email': 'peter@klaven'}
+[2025-12-02 13:41:40] [INFO] api_tests.core_tester - [FAIL] POST login without password (negative test) (status=403, time=55.32 ms) - Expected status 400, got 403. Response is not valid JSON.
+[2025-12-02 13:41:40] [INFO] api_tests.core_tester - Writing test report to G:\Portfolio\API-Testing-Automation-Suite\reports\api_test_report_20251202_081140.txt
+[2025-12-02 13:41:40] [INFO] __main__ - API Testing Automation Suite finished. Report: G:\Portfolio\API-Testing-Automation-Suite\reports\api_test_report_20251202_081140.txt

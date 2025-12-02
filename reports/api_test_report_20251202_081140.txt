@@ -1,0 +1,4 @@
+FAIL | GET single user (id=2) | status=403 | time=77.90 ms | Expected status 200, got 403. Response is not valid JSON.
+FAIL | GET users list (page=2) | status=403 | time=54.34 ms | Expected status 200, got 403. Response is not valid JSON.
+FAIL | POST create user | status=403 | time=53.08 ms | Expected status 201, got 403. Response is not valid JSON.
+FAIL | POST login without password (negative test) | status=403 | time=55.32 ms | Expected status 400, got 403. Response is not valid JSON.
